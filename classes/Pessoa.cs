@@ -13,7 +13,7 @@ namespace Backend_SENAI.classes
 
         public float rendimento { get; set; }
 
-        public string? endereco { get; set; }
+        public Endereco? endereco { get; set; }
 
         public abstract float CalcularImposto(float rendimento);
     }
